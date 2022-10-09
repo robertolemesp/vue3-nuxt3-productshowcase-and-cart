@@ -1,0 +1,20 @@
+$blue: #54A3FF;
+$blue-2: #3486E6;
+$blue-3: #3487DC;
+$gray: #EEEEEE;
+$gray-2: #E1E1E1;
+$gray-3: #7F7575; 
+$gray-4: #746A6A; 
+$gray-5: #423B3B; 
+$gray-6: #363636; 
+
+$border: 1px solid $gray-2;
+
+:export { 
+  blue: $blue;
+  blue2: $blue-2; 
+  blue3: $blue-3;
+
+  gray3: $gray-3;
+  gray4: $gray-4;
+}

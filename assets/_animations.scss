@@ -1,0 +1,12 @@
+.skeleton-loader {
+  animation: alternation 0.7s linear infinite alternate;
+}
+
+@keyframes alternation {
+  0% {
+    background-color: hsl(0, 0%, 93%);
+  }
+  100% {
+    background-color: hsl(0, 0%, 98%);
+  }
+}

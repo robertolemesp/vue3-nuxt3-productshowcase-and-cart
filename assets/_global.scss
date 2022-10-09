@@ -1,0 +1,42 @@
+@import './_animations.scss';
+@import './_variables.module.scss';
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/public/assets/fonts/OpenSans-Regular.ttf'), url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap) format('ttf');
+}
+
+@font-face {
+  font-family: 'Open Sans Semi-Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/public/assets/fonts/OpenSans-SemiBold.ttf'), url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap) format('ttf');
+}
+
+@font-face {
+  font-family: 'Open Sans Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/public/assets/fonts/OpenSans-Bold.ttf'), url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap) format('ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+  scroll-behavior: smooth; 
+
+  &:focus { outline: none; }
+}
+
+html, body { 
+  width: 100%;
+  height: 100%;
+}
