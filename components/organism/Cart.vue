@@ -9,7 +9,7 @@
     </div>
     <div v-if="cartState.products.length" class="product-list">
       <MoleculeProduct
-        v-for="(cartProduct, i) in cartState.products" :key="i"
+        v-for="cartProduct in cartState.products" :key="cartProduct.id"
         :product="cartProduct"
         :variant="'small'"
       />
